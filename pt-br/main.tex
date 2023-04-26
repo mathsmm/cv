@@ -1,0 +1,101 @@
+\documentclass[11pt]{article}
+
+\usepackage[a4paper, left=2cm, right=2cm, top=2cm, bottom=2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{helvet}
+\usepackage{hyperref}
+\usepackage{multicol}
+\usepackage{amsfonts} 
+\usepackage{enumitem}
+\usepackage{titlesec}
+
+% Esconder número da página
+\thispagestyle{empty}
+
+% Definir o espaçamento vertical antes e depois da seção
+\titlespacing{\section}{0pt}{\parskip}{-\parskip}
+
+% Personalizar o formato do título da seção
+\titleformat{\section}
+  {\normalfont\Large\bfseries}{\thesection}{1.0em}{}[{\titlerule[0.2pt]}]
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\begin{document}
+
+\begin{flushleft}
+    \Huge \textbf{MATHEUS MARCHI MORO}
+\end{flushleft}
+
+\bigskip
+
+\section*{DADOS PESSOAIS}
+\hrule
+\begin{flushleft}
+\begin{tabular}{p{0.25\linewidth}p{0.8\linewidth}}
+    \vspace{0.1em}\textbf{Endereço} & \vspace{0.1em}Rua Pedro Benjamino de Oliveira, 189, Itoupava Central - Blumenau \\
+    \textbf{Data de nascimento} & 21/04/2003 \\
+    \textbf{Estado civil} & Solteiro \\
+    \textbf{Telefone} & (47) 9 8429-8747 \\
+    \textbf{E-mail} & marchimm2003@gmail.com \\
+    \textbf{GitHub} & \url{https://github.com/mathsmm} \\
+    \textbf{Linkedin} & \url{https://www.linkedin.com/in/mathsmm}
+\end{tabular}
+\end{flushleft}
+
+\vspace{1.0em}\section*{FORMAÇÃO}
+\hrule
+\begin{flushleft}
+\begin{tabular}{p{0.25\linewidth}p{0.8\linewidth}}
+    \vspace{0.1em}\textbf{Período} & \vspace{0.1em}\textbf{Título e Instituição} \\
+    06/2014 -- 12/2015 & Informática, Wisdom \\
+    02/2018 -- 12/2018 & Técnicas de manutenção eletrônica, SENAI \\
+    02/2019 -- 11/2021 & Ensino médio (Bolsa 100\% do Rotary Club), Energia Blumenau \\
+    03/2019 -- Hoje & Inglês, Folks English Course \\
+    09/2020 -- 12/2020 & Programação em C\#, Apex Ensino \\
+    04/2022 -- Hoje & Bacharelado em Ciência da Computação, IFC Campus Blumenau \\
+\end{tabular}
+\end{flushleft}
+
+\vspace{1.0em}\section*{EXPERIÊNCIA PROFISSIONAL}
+\hrule
+\begin{flushleft}
+\begin{tabular}{p{0.25\linewidth}p{0.8\linewidth}}
+    \vspace{0.1em}\textbf{Período} & \vspace{0.1em}\textbf{Cargo e Empresa} \\
+    02/2018 -- 12/2018 & Menor aprendiz, Electro Aço Altona S. A. \\
+    02/2022 -- 04/2022 & Auxiliar de expedição, Wester Moto Bike Components \\
+    07/2022 -- Hoje & Programador estagiário, SCI Sistemas Contábeis \\
+\end{tabular}
+\end{flushleft}
+
+\vspace{1.0em}\section*{INFORMAÇÕES ADICIONAIS}
+\hrule
+\begin{flushleft}
+\begin{multicols}{2}
+    \vspace{0.1em} 
+    
+    \textbf{Curso de C\#:} \\
+    \begin{itemize}[leftmargin=*]
+        \item Web APIs com ASP.NET Core e SQL Server. Frontend em Angular.
+    \end{itemize}
+
+    \textbf{Ciência da Computação:} \\
+    \begin{itemize}[leftmargin=*]
+        \item Fundamentos matemáticos com as matérias Pré-Cálculo, Cálculo 1, Cálculo 2, Geometria Analítica e Álgebra Linear;
+        \item Python. Declarações básicas, sequências, manipulação de arquivos, tratamento de erros, OO (Matéria: Algoritmos);
+        \item Orientação a objetos com C++. Projeto de simulação de colisões em $\mathbb{R}^2$ (Matéria: POO1);
+        \item HTML e CSS básicos (Matéria: Desenv. Web 1);
+        \item Reflexão, Reusabilidade, Modularidade e criação de Pacotes com Python e Java (Matéria: POO2).
+    \end{itemize}
+
+    \textbf{Cargo de Programador na SCI:} \\
+    \begin{itemize}[leftmargin=*]
+        \item Manutenção de uma ferramenta para migração de dados;
+        \item Implementações para uma aplicação de Folha de Pagamento. Linguagem: Delphi 7.
+    \end{itemize}
+    
+\end{multicols}
+\end{flushleft}
+
+\end{document}
